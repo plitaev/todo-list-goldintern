@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <script src='js/jquery-3.6.0.min.js'></script>
+ <script src='js/system.js'></script>
+ <script src='js/auth-check.js'></script>
+ <script src='js/dashboard.js'></script>
+ <link rel='stylesheet' href='styles.css'/> 
+ <meta http-equiv="Cache-Control" content="max-age=60, must-revalidate"/>
+ <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+
+<div class="user-menu">
+ <input type="text" id="todo_name" placeholder="Введите название TO-DO"/>
+ <input type="date" id="todo_date" required>
+ <input type="time" id="todo_time" step="1" required>
+ <a href="javascript:void(0);" onClick="todo_create();">Создать TO-DO</a> | 
+ <a href="javascript:void(0);" onClick="user_exit();">Выйти из системы</a>
+</div>
+
+<div class="user-menu">Сортировка: 
+ <a href="javascript:void(0);" onClick="todo_list_get(1);">Вначале с низким приоритетом</a> | 
+ <a href="javascript:void(0);" onClick="todo_list_get(2);">Вначале с высоким приоритетом</a>
+</div>
+
+
+<div class="title title-2">АКТИВНЫЕ TO-DO</div>
+
+<div id="todo-creation-status"></div>
+<div id="todo-goldintern-status"></div>
+
+<div id="todo-list"></div>
+
+</body>
+</html>

@@ -1,0 +1,36 @@
+@import url('https://svoiludi-a.akamaihd.net/css/google-fonts.css');
+*{font-family:'Open Sans', sans-serif; font-weight:300; font-size:16px}
+body{overflow-y:scroll}
+
+input[type=text]{display:block; margin:10px 0; padding:5px; width:100%; border:1px solid #dddddd; box-sizing:border-box}
+input[type=password]{margin:10px 0; padding:5px; width:100%; border:1px solid #dddddd}
+a{color:#af4872; font-weight:400; text-decoration:none}
+
+.layout-2{padding:25px}
+.layout-3{margin:0 auto; width:930px; box-sizing:border-box; background:#ffffff}
+.layout-4{padding:10px; width:100%; box-sizing:border-box}
+.maincontent{margin:0 auto; width:100%; max-width:980px}
+
+.user-enter{display:block; padding:10px 20px; background-color:#af4872; color:#ffffff; text-align:center}
+#auth-status{margin:10px 0; color:red; text-align:center}
+
+.title{padding:60px 0 15px 0; font-size:36px; font-weight:300; line-height:1.55; text-align:center; text-transform:uppercase}
+.title-1{font-size:36px}
+.title-2{font-size:24px}
+
+.user-menu{padding:10px; background-color:#e5e4e4}
+.user-menu > input[type=text]{display:inline-block; width:auto}
+.user-menu > input[type=date]{display:inline-block}
+.user-menu > input[type=time]{display:inline-block}
+
+#todo-list{margin-top:25px}
+.todo-list-item{margin:10px; padding:10px; background-color:#f7f7f7; border:1px solid; border-color:#dddddd}
+.todo-list-item > div{margin:5px 0}
+.todo-list-item-name{margin:5px 0; font-weight:400}
+
+.todo-list-item-name > a{font-weight:600}
+.todo-list-item-name > a:first-of-type{color:green}
+.todo-list-item-name > a:last-of-type{color:red}
+
+#todo-creation-status{color:red; text-align:center}
+#todo-goldintern-status{color:red; text-align:center}
